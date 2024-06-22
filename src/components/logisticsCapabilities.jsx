@@ -36,7 +36,7 @@ const LogisticsCapabilities = ({ showLink }) => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 className="mt-5 w-fit font-jost text-base lg:text-lg text-gray-700">
-                At Logistica, we are more than just a logistics company – we are
+                At Saibaba logistics & company, we are more than just a logistics company – we are
                 the architects of seamless supply chains, the navigators of
                 global trade, and the enablers of business growth.
               </p>
@@ -52,14 +52,14 @@ const LogisticsCapabilities = ({ showLink }) => {
                       key={index}>
                       <div>
                         <div className="flex gap-1 items-center">
-                          <BsIcons.BsPlus className="text-sm text-gray-700" />
-                          <p className="text-gray-700">{fistFeature}</p>
+                          <BsIcons.BsPlus className="text-lg text-gray-700" />
+                          <p className="text-gray-700 text-lg text-semibold">{fistFeature}</p>
                         </div>
                       </div>
                       <div>
                         <div className="flex gap-1 items-center">
-                          <BsIcons.BsPlus className="text-sm text-gray-700" />
-                          <p className="text-gray-700">{secondFeature}</p>
+                          <BsIcons.BsPlus className="text-lg text-gray-700" />
+                          <p className="text-gray-700 text-lg text-semibold">{secondFeature}</p>
                         </div>
                       </div>
                     </div>

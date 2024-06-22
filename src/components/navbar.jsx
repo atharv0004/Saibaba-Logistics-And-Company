@@ -6,6 +6,8 @@ import * as GrIcons from "react-icons/gr";
 import { Link, useLocation } from "react-router-dom";
 import { navbarLinks } from "../data/navbarLinksData";
 import Button from "./button";
+import sbc from "../assets/logo/sbc.png";
+import sbcBlack from "../assets/logo/sbcb.png"
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,6 +28,7 @@ const Navbar = () => {
       setNavbarBgChanged(false);
     };
   }, [location]);
+
   return (
     <header
       className={
@@ -36,17 +39,26 @@ const Navbar = () => {
       <nav
         className="mx-full flex items-center justify-between px-[20px] lg:px-[100px]"
         aria-label="Global">
+        {!mobileMenuOpen && !navbarBgChanged && (
+            <img data-aos="fade-right"
+              data-aos-duration="2000" src={sbc} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
+        )}
+        {!mobileMenuOpen && navbarBgChanged && (
+            <img data-aos="fade-right"
+              data-aos-duration="2000" src={sbcBlack} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
+        )}
+        
         <div className="flex lg:flex-1">
-          <Link
+          {!mobileMenuOpen && <Link
             to="/"
             className={navbarBgChanged ? "text-gray-900" : "text-white"}>
             <h1
               data-aos="fade-right"
-              data-aos-duration="2000"
-              className="text-2xl tracking-widest font-jost leading-[24px] font-normal uppercase">
-              Logistica.
+              data-aos-duration="1000"
+              className="text-2xl tracking-widest font-jost leading-[24px] font-normal uppercase mr-5">
+              Saibaba Logistics
             </h1>
-          </Link>
+          </Link>}
         </div>
         <div className="flex lg:hidden">
           <button
@@ -81,7 +93,7 @@ const Navbar = () => {
             );
           })}
           <Link
-            to={"/signup"}
+            to={"/contact"}
             data-aos="fade-left"
             data-aos-duration="2000"
             className="no-underline ml-[50px]">
@@ -103,7 +115,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5 text-gray-900">
               <h1 className="text-[24px] leading-[22px] font-[600] uppercase">
-                Logistica.
+                Saibaba Logistics
               </h1>
             </Link>
             <button
@@ -114,7 +126,7 @@ const Navbar = () => {
                   : "-m-2.5 rounded-md p-2.5 text-white"
               }
               onClick={() => setMobileMenuOpen(false)}>
-              <span className="sr-only">Close menu</span>
+              
               <GrIcons.GrClose className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>

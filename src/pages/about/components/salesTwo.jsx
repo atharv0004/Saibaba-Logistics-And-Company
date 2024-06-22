@@ -12,7 +12,7 @@ const SalesTwo = () => {
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 className="text-gray-500 text-lg font-jost">
-                At Logistica, we understand that every shipment, every route,
+                At Saibaba Logistics, we understand that every shipment, every route,
                 and every client is unique. That’s why we approach each project
                 with a personalized touch. Our team of seasoned professionals
                 collaborates closely with you to analyze your specific needs and

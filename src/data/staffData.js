@@ -4,12 +4,12 @@ import staffThree from "../assets/images/t-03.jpg";
 
 export const staffData = [
   {
-    staffName: "Alisson Taylor",
+    staffName: "Vinit kotwal",
     staffPosition: "Team Manager",
     imageUrl: staffOne,
   },
   {
-    staffName: "John Doe",
+    staffName: "Pundlik kotwal",
     staffPosition: "Chief Executive Officer",
     imageUrl: staffThree,
   },

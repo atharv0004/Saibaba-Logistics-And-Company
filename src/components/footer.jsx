@@ -19,7 +19,7 @@ const Footer = () => {
                   data-aos="fade-up"
                   data-aos-duration="2000"
                   className="text-3xl tracking-widest font-jost leading-[24px] font-normal uppercase">
-                  Logistica.
+                  Saibaba Logistics.
                 </h1>
               </Link>
 
@@ -27,9 +27,19 @@ const Footer = () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 className="w-full mt-4 font-jost md:w-8/12 text-gray-500 lg:leading-8 lg:text-lg">
-                Optimized logistics can reduce transportation, storage, and
-                inventory costs, leading to higher profitability.
+                Address: 
+                Elita Building , Office No- 3 & 4
+                Sec- 06, Plot no-21, Kamothe,
+                Navi Mumbai, 410209
               </p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                className="w-full mt-4 font-jost md:w-8/12 text-gray-500 lg:leading-8 lg:text-lg">
+                Email: saibabalogistics2017@gmail.com
+                Phone: 9702043415
+              </p>
+
             </div>
           </div>
           <div className="mt-5 md:mt-0 md:basis-1/3">
@@ -89,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-14 font-jost text-center text-gray-500">
-          &copy; {currentYear} Logistica. All rights reserved
+          &copy; {currentYear} Saibaba Logistics. All rights reserved
         </div>
       </footer>
     </>

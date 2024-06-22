@@ -35,7 +35,7 @@ const AboutSales = () => {
               <div className="basis-1/2">
                 <div className="px-0 lg:px-10">
                   <h5 className="text-gray-600 text-xl font-jost font-semibold">
-                    Why Choose Logistca?
+                    Why Choose Saibaba Logistics?
                   </h5>
 
                   <div className="mt-5">

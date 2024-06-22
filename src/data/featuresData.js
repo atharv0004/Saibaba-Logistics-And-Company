@@ -1,14 +1,10 @@
 export const featuresData = [
   {
+    fistFeature: "Sea/ Air Freight Forwarding",
+    secondFeature: "Custom Clearance"
+  },
+  {
     fistFeature: "Warehousing",
-    secondFeature: "E-commerce Logistics"
-  },
-  {
-    fistFeature: "Freight Forwarding",
-    secondFeature: "Last-Mile Delivery"
-  },
-  {
-    fistFeature: "Supply Management",
-    secondFeature: "Cold Chain Logistics"
+    secondFeature: "Transportation"
   }
 ]

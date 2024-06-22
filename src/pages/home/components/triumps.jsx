@@ -11,7 +11,7 @@ const Triumphs = () => {
             data-aos="fade-right"
             data-aos-duration="2000"
             className="text-gray-800 mt-[50px] font-[700] text-[40px] leading-[40px] font-outfit md:text-[66px] md:leading-[66px] xl:text-[114px] xl:leading-[114px]">
-            Logistics Triumphs
+            Our Prestigious Clients
           </h1>
           <hr className="mt-9" />
           <div className="mt-2">
