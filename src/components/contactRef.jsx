@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "./button";
+import contactBackground from '../assets/images/contact_container_bg.jpg';
 
 const ContactRef = () => {
   return (
     <>
-      <section className="our_staff pt-[5rem] bg-white overflow-hidden">
+      <section className="pt-[5rem] bg-white overflow-hidden">
         <div className="px-[20px] lg:px-[100px] w-full">
           <h1
             data-aos="fade-right"
@@ -13,17 +14,12 @@ const ContactRef = () => {
             className="text-gray-800 mt-[50px] font-[700] text-[40px] leading-[40px] md:text-[66px] font-outfit md:leading-[66px] xl:text-[114px] xl:leading-[114px]">
             Connect Today
           </h1>
-          <hr className="mt-9" />
-          <div className="mt-8">
-            <h3
-              data-aos="fade-in"
-              data-aos-duration="2000"
-              className="mt-5 text-[18px] font-jost leading-[18px] lg:text-[32px] lg:leading-[32px] text-gray-800 font-[400]">
-              Communication in Motion
-            </h3>
-          </div>
         </div>
-        <div className="contact_ref mt-[5rem] py-[5rem] h-[70vh] items-center justify-center flex overflow-hidden">
+        <div
+          className="contact_ref mt-[5rem] py-[5rem] h-[70vh] items-center justify-center flex overflow-hidden"
+          style={{
+            background: `linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgba(0, 0, 0, 0.63)), url(${contactBackground}) center/cover no-repeat fixed`,
+          }}>
           <div className="text-center">
             <h1
               data-aos="fade-up"

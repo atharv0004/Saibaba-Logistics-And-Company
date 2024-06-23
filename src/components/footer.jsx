@@ -10,7 +10,8 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="w-full bg-white overflow-hidden py-[5rem]">
+      <footer className="w-full bg-white overflow-hidden py-[5rem] ">
+        <div class="h-1 bg-gray-400 mb-10 rounded-full mx-4 md:mx-10"></div>
         <div className="md:flex gap-4 px-[20px] lg:px-[100px]">
           <div className="md:basis-1/2">
             <div>
@@ -28,7 +29,7 @@ const Footer = () => {
                 data-aos-duration="2000"
                 className="w-full mt-4 font-jost md:w-8/12 text-gray-500 lg:leading-8 lg:text-lg">
                 Address: 
-                Elita Building , Office No- 3 & 4
+                Elita Building, Office No- 3 & 4
                 Sec- 06, Plot no-21, Kamothe,
                 Navi Mumbai, 410209
               </p>
