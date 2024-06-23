@@ -14,10 +14,10 @@ const Projects = () => {
               key={index}
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="h-[200px] md:h-[180px] lg:h-[150px] xl:h-[200px] relative project_image_wrap w-full rounded-[10px] overflow-hidden"
+              className="h-[200px] p-10  md:h-[180px] lg:h-[150px] xl:h-[200px] relative project_image_wrap w-full rounded-[10px] overflow-hidden"
               style={{
-                border: "5px solid black", // Increased border width to 5px
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.25)", // Increased shadow spread and offset
+                border: "3px solid black", // Increased border width to 5px
+                boxShadow: "0px 4px 8px rgba(0, 0, 0, 1)", // Increased shadow spread and offset
               }}
             >
               <img
