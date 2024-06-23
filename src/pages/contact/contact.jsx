@@ -63,6 +63,7 @@ const Contact = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <iframe
+            title="Our location Iframe"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150471.0188567668!2d73.01038851259263!3d19.001891229544647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9fb6aa3d519%3A0x90717680363633f4!2sSaibaba%20Logistics%20and%20Company!5e0!3m2!1sen!2sin!4v1719078177230!5m2!1sen!2sin"
             width="100%"
             height="450"

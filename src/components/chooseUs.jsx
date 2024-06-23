@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import ExternalLink from "../components/externalLink";
+import React from "react";
 import { statsBarData } from "../data/statsBar";
 import CargoImage from "../assets/images/cargo_ship.jpg";
 
