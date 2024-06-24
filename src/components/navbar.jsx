@@ -40,14 +40,14 @@ const Navbar = () => {
         className="mx-full flex items-center justify-between px-[20px] lg:px-[100px]"
         aria-label="Global">
         {!mobileMenuOpen && !navbarBgChanged && (
-            <img data-aos="fade-right"
-              data-aos-duration="2000" src={sbc} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
+          <img data-aos="fade-right"
+            data-aos-duration="2000" src={sbc} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
         )}
         {!mobileMenuOpen && navbarBgChanged && (
-            <img data-aos="fade-right"
-              data-aos-duration="2000" src={sbcBlack} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
+          <img data-aos="fade-right"
+            data-aos-duration="2000" src={sbcBlack} alt="Logo" className="w-[20%] md:w-[10%] mr-3 md:mr-5" />
         )}
-        
+
         <div className="flex lg:flex-1">
           {!mobileMenuOpen && <Link
             to="/"
@@ -113,7 +113,7 @@ const Navbar = () => {
         <div className="fixed inset-0" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="/" className="-m-1.5 p-1.5 text-gray-900">
+            <Link to="/" className="-m-1.5 p-1.5 text-gray-900" onClick={() => setMobileMenuOpen(false)}>
               <h1 className="text-[24px] leading-[22px] font-[600] uppercase">
                 Saibaba Logistics
               </h1>
@@ -126,7 +126,7 @@ const Navbar = () => {
                   : "-m-2.5 rounded-md p-2.5 text-white"
               }
               onClick={() => setMobileMenuOpen(false)}>
-              
+
               <GrIcons.GrClose className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
@@ -139,7 +139,8 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={linkPath}
-                      className="-mx-3 block rounded-lg px-3 border-gray-200 border-b py-4 text-[20px] font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      className="-mx-3 block rounded-lg px-3 border-gray-200 border-b py-4 text-[20px] font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      onClick={() => setMobileMenuOpen(false)}>
                       {name}
                     </Link>
                   );
