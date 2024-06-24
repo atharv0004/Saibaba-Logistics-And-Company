@@ -40,7 +40,7 @@ const LogisticsCapabilities = ({ showLink }) => {
                 the architects of seamless supply chains, the navigators of
                 global trade, and the enablers of business growth.
               </p>
-              <div
+              {/* <div
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 className="mt-14">
@@ -65,7 +65,7 @@ const LogisticsCapabilities = ({ showLink }) => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
             </div>
             <div className="content_wrap_two text-center md:text-left w-full md:w-1/2">
               <div className="progress_wrap mt-5 lg:pl-12">

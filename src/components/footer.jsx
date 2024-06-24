@@ -20,7 +20,7 @@ const Footer = () => {
                   data-aos="fade-up"
                   data-aos-duration="2000"
                   className="text-3xl tracking-widest font-jost leading-[24px] font-normal uppercase">
-                  Saibaba Logistics.
+                  Saibaba Logistics <br /> <br />And Company.
                 </h1>
               </Link>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                 data-aos-duration="2000"
                 className="w-full mt-4 font-jost md:w-8/12 text-gray-500 lg:leading-8 lg:text-lg">
                 Email: saibabalogistics2017@gmail.com
-                Phone: 9702043415
+                Phone no: 9702043415 ,<br></br> 8356920370
               </p>
 
             </div>

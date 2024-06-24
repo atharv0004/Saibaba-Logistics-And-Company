@@ -55,8 +55,8 @@ const Navbar = () => {
             <h1
               data-aos="fade-right"
               data-aos-duration="1000"
-              className="text-2xl tracking-widest font-jost leading-[24px] font-normal uppercase mr-5">
-              Saibaba Logistics
+              className="text-1.5xl tracking-widest font-jost leading-[24px] font-normal uppercase mr-5">
+              Saibaba Logistics <br></br>And Company
             </h1>
           </Link>}
         </div>

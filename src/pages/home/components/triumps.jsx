@@ -14,13 +14,13 @@ const Triumphs = () => {
             Our Prestigious Clients
           </h1>
           <hr className="mt-9" />
-          <div className="mt-2">
+          {/* <div className="mt-2">
             <ExternalLink
               linkPath={"/projects"}
               linkText={"Latest Services"}
               addedClass={"ml-auto"}
             />
-          </div>
+          </div> */}
           <h3
             data-aos="fade-in"
             data-aos-duration="2000"

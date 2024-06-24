@@ -18,8 +18,7 @@ const HeroBanner = () => {
             data-aos="fade-up"
             data-aos-duration="2000"
             className="mt-8 w-full font-jost md:w-8/12 text-white lg:leading-8 lg:text-lg">
-            Our Optimized logistics solutions can reduce transportation, storage, and
-            inventory costs, leading to higher profitability.
+            Seamless Logistics, Delivered with Precision.
           </p>
         </div>
         <div className="absolute px-[20px] md:px-[50px] py-[20px] w-full bottom-0 left-0 right-0">
