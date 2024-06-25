@@ -3,7 +3,7 @@ import ServiceOne from "../assets/images/service_1.jpg";
 import ServiceTwo from "../assets/images/service_2.jpg";
 import ServiceThree from "../assets/images/service_3.jpg";
 import ServiceFour from "../assets/images/service_4.jpg";
-import Accordion from "../../../utils/accordions";
+// import Accordion from "../../../utils/accordions";
 
 const ServiceSecOne = () => {
   return (

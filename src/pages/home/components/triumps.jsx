@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "../../../components/projects";
-import ExternalLink from "../../../components/externalLink";
+// import ExternalLink from "../../../components/externalLink";
 
 const Triumphs = () => {
   return (

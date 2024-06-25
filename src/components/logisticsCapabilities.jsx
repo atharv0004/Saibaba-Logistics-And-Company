@@ -1,6 +1,6 @@
 import React from "react";
-import * as BsIcons from "react-icons/bs";
-import { featuresData } from "../data/featuresData";
+// import * as BsIcons from "react-icons/bs";
+// import { featuresData } from "../data/featuresData";
 import { progressData } from "../data/progressData";
 import ExternalLink from "./externalLink";
 
