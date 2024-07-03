@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import Banner from "../about/components/banner";
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_v2xo9au', 'template_v149cks', form.current, {
+        publicKey: '5TmoQxX_DaROqjQ5S',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <div>
       <Banner />
@@ -14,15 +33,18 @@ const Contact = () => {
         <div className="w-full lg:w-1/2">
           <div className="container mx-auto">
             <div className="contact-form">
+              
+
               <form
                 action="https://formspree.io/f/xgedgjkr"
                 method="POST"
                 className="contact-inputs flex flex-col md:w-4/5"
+                ref={form} onSubmit={sendEmail}
               >
                 <label className="text-lg">Username:</label>
                 <input
                   type="text"
-                  name="username"
+                  name="from_name"
                   className="h-12 text-lg border border-gray-500 rounded-lg p-3 transition duration-200 hover:border-black focus:border-black w-full"
                   placeholder="Username"
                   autoComplete="off"
@@ -32,16 +54,19 @@ const Contact = () => {
                 <label className="mt-5 text-lg">Email:</label>
                 <input
                   type="email"
-                  name="Email"
+                  name="from_email"
                   placeholder="@gmail.com"
                   className="h-12 text-lg border border-gray-500 rounded-lg p-3 transition duration-200 hover:border-black focus:border-black w-full"
                   autoComplete="off"
                   required
                 />
 
+                
+
                 <label className="mt-5 text-lg">Message:</label>
                 <textarea
                   name="message"
+                  placeholder="Please enter your message and include your phone number."
                   cols="30"
                   rows="4"
                   className="text-lg border border-gray-500 rounded-lg p-3 transition duration-200 hover:border-black focus:border-black w-full"
